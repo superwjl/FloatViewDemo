@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.demo.tik.floatViewDemo.MainActivity">
+
+    <Button
+        android:id="@+id/show_float"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="显示悬浮球"/>
+    <Button
+        android:id="@+id/hide_float"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="关闭悬浮球"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
